@@ -1,6 +1,6 @@
 import React from 'react';
 import { Switch, Route, Redirect } from 'react-router-dom';
-import logo from './logo.svg';
+import logo from './assets/APEXLOGO.png';
 import './App.css';
 
 import Header from './components/header/header.component'
@@ -13,17 +13,18 @@ class App extends React.Component {
         <Header />
         <div className="App">
           <header className="App-header">
-            <img src={logo} className="App-logo" alt="logo" />
+            <h1>SQL Learner</h1>
             <p>
-              Edit <code>src/App.js</code> and save to reload.
+             Welcome to SQL Learner, a website to provide quick SQL references and a step by step guide to learn and sharpen your SQL skills!
             </p>
+            <img src={logo} className="App-logo" alt="logo" />
             <a
               className="App-link"
-              href="https://reactjs.org"
+              href="https://apex.oracle.com/en/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Learn React
+              Go to Apex Oracle
             </a>
           </header>
         </div>
